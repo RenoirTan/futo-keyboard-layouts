@@ -1,0 +1,78 @@
+name: International Phonetic Alphabet QWERTY Google Symbols Shifted
+numberRowMode: UserConfigurable
+attributes:
+  shiftable: false
+  moreKeyMode: OnlyExplicit
+rows:
+  - letters:
+    -
+      - "◌̝|\u031D" # COMBINING UP TACK BELOW
+      - "◌˔|\u02D4" # MODIFIER LETTER UP TACK
+      - "◌̞|\u031E" # COMBINING DOWN TACK BELOW
+      - "◌˕|\u02D5" # MODIFIER LETTER DOWN TACK
+    -
+      - "◌̹|\u0339" # COMBINING RIGHT HALF RING BELOW
+      - "◌͗|\u0357" # COMBINING RIGHT HALF RING ABOVE
+      - "◌˒|\u02D2" # MODIFIER LETTER CENTRED RIGHT HALF RING
+      - "◌̜|\u031C" # COMBINING LEFT HALF RING BELOW
+      - "◌͑|\u0351" # COMBINING LEFT HALF RING ABOVE
+      - "◌˓|\u02D3" # MODIFIER LETTER CENTRED LEFT HALF RING
+    -
+      - "◌̟|\u031F" # COMBINING PLUS SIGN BELOW
+      - "◌˖|\u02D6" # MODIFIER LETTER PLUS SIGN
+      - "◌̠|\u0320" # COMBINING MINUS SIGN BELOW
+      - "◌˗|\u02D7" # MODIFIER LETTER MINUS SIGN
+    - "◌ⁿ|\u207F" # SUPERSCRIPT LATIN SMALL LETTER N
+    - "◌ˡ|\u02E1" # MODIFIER LETTER SMALL L
+    - "◌̚|\u031A" # COMBINING LEFT ANGLE ABOVE
+    - "◌ᵊ|\u1D4A" # MODIFIER LETTER SMALL SCHWA
+    - "◌ᶿ|\u1DBF" # MODIFIER LETTER SMALL THETA
+    - "◌ˣ|\u02E3" # MODIFIER LETTER SMALL X
+    - "◌ʼ|\u02BC" # MODIFIER LETTER APOSTROPHE
+  - letters:
+    -
+      - "◌̩|\u0329" # COMBINING VERTICAL LINE BELOW
+      - "◌̍|\u030D" # COMBINING VERTICLE LINE ABOVE
+    -
+      - "◌̯|\u032F" # COMBINING INVERTED BREVE BELOW
+      - "◌̑|\u0311" # COMBINING INVERTED BREVE
+    -
+      - "◌̘|\u0318" # COMBINING LEFT TACK BELOW
+      - "◌̙|\u0319" # COMBINING RIGHT TACK BELOW
+    -
+      - "◌̈|\u0308" # COMBINING DIAERESIS
+      - "◌̽|\u033D" # COMBINING X ABOVE
+    - "◌̃|\u0303" # COMBINING TILDE
+    -
+      - "◌̪|\u032A" # COMBINING BRIDGE BELOW
+      - "◌͆|\u0346" # COMBINING BRIDGE ABOVE
+      - "◌̺|\u033A" # COMBINING INVERTED BRIDGE BELOW
+      - "◌̻|\u033B" # COMBINING SQUARE BELOW
+      - "◌ʷ|\u02B7" # MODIFIER LETTER SMALL W
+      - "◌̼|\u033C" # COMBINING SEAGULL BELOW
+    - "◌ʲ|\u02B2" # MODIFIER LETTER SMALL J
+    -
+      - "◌ˠ|\u02E0" # MODIFIER LETTER SMALL GAMMA
+      - "◌̴|\u0334" # COMBINING TILDE OVERLAY
+    -
+      - "◌ˁ|\u02C1" # MODIFIER LETTER REVERSED GLOTTAL STOP
+      - "◌̴|\u0334" # COMBINING TILDE OVERLAY
+  - letters:
+    - $shift
+    -
+      - "◌̥|\u0325" # COMBINING RING BELOW
+      - "◌̊|\u030A" # COMBINING RING ABOVE
+    - "◌̬|\u032C" # COMBINING CARON
+    - "◌ʰ|\u02B0" # MODIFIER LETTER SMALL H
+    - "◌̤|\u0324" # COMBINING DIAERESIS BELOW
+    - "◌̰|\u0330" # COMBINING TILDE BELOW
+    - "◌̃|\u0303" # COMBINING TILDE
+    - "◌˞|\u02DE" # MODIFIER LETTER RHOTIC HOOK
+    - $delete
+  - bottom:
+    - $alphabet
+    - "◌͡◌|\u0361" # COMBINING DOUBLE INVERTED BREVE
+    - $number
+    - $space
+    - "◌͜◌|\u035C" # COMBINING DOUBLE BREVE BELOW
+    - $enter

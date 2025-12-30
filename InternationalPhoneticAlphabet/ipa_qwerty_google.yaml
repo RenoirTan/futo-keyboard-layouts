@@ -1,0 +1,71 @@
+# This is Google Keyboard's QWERTY IPA layout ported over to Futo Keyboard.
+# It aims to be a faithful recreation of the original keyboard,
+# doing so by matching the button, more key layouts and even including
+# some of the choice symbols Google seems to have used. See the notes for more.
+# NOTES:
+# 1. The character for pharyngealisation used by Google is ⟨ˁ⟩ (U+02C1) instead of
+#    the IPA's specified ⟨ˤ⟩ (U+02E4). The former is used here.
+# 2. The character for the voiced velar plosive used is ⟨ɡ⟩ (U+0261) instead of
+#    the normal ⟨g⟩ (U+0067).
+
+name: International Phonetic Alphabet QWERTY Google
+numberRowMode: AlwaysDisabled # first row is the number row
+autoShift: false # IPA is not bicameral
+layoutSetOverrides:
+  symbols: ipa_qwerty_google_symbols
+  symbolsShifted: ipa_qwerty_google_symbols_shifted
+attributes:
+  shiftable: false # prevent letters from being capitalised when pressing shift
+  moreKeyMode: OnlyExplicit # prevent additional symbols from being added to long press list
+rows:
+  - letters: # X-SAMPA number row
+    - {type: case, normal: ɨ, shifted: [ɸ, ɸʼ, pɸ]}
+    - {type: case, normal: [ø, ø̞], shifted: [ɘ, ɚ, "◌ᵊ|\u1D4A"]}
+    - {type: case, normal: [ɜ, ɞ, ɛ, ɝ], shifted: [ʘ, ʘ̬, ʘ̃]}
+    - {type: case, normal: [ɾ, ɿ], shifted: [ǀ, "!autoColumnOrder!5", ǁ, ǀ̬, ǀ̃, ǁ̬, ǁ̃]}
+    - {type: case, normal: ɫ, shifted: ǃ}
+    - {type: case, normal: ɐ, shifted: [ǂ, ǂ̬, ǂ̃]}
+    - {type: case, normal: [ɤ, ɤ̞], shifted: ɶ}
+    - {type: case, normal: ɵ, shifted: æ}
+    - {type: case, normal: [œ, ɶ], shifted: ʉ}
+    - {type: case, normal: [ʔ, "!autoColumnOrder!6", ʡ, ʢ, ʕ, ʡʼ, "◌ˀ|\u02C0", "◌ˁ|\u02C1"], shifted: [ʕ, ʢ, ʡ, "◌ˁ|\u02C1"]}
+  - letters:
+    - {type: case, normal: [q, qʼ, ʠ], shifted: [ɒ, ɒ̈]}
+    - {type: case, normal: [w, ʍ, ʷ], shifted: ʍ}
+    - {type: case, normal: [e, "!autoColumnOrder!6", ɛ, ə, ɘ, e̞, ɚ, "◌ᵊ|\u1D4A"], shifted: ɛ}
+    - {type: case, normal: [r, "!autoColumnOrder!7", ɽ, ɹ, ɻ, ɺ, ʁ, ʀ, ɾ, ɿ, tɹ̝̊, dɹ̝, t̠ɹ̠̊˔, d̠ɹ̠˔, "◌˞|\u02DE", " "], shifted: [ʁ, ʀ]}
+    - {type: case, normal: [t, "!autoColumnOrder!7", ʈ, θ, tʼ, ʈʼ, θʼ, ts, tʃ, tɕ, t̪θ, tɬ, ʈʂ, ʈɭ̊˔, tɹ̝̊, t̠ɹ̠̊˔, tsʼ, t̠ʃʼ, tɬʼ, ʈʂʼ, "◌ᶿ|\u1DBF"], shifted: [θ, θʼ, t̪θ, "◌ᶿ|\u1DBF"]}
+    - {type: case, normal: [y, ʎ, ʏ, cʎ̝̊, cʎ̝̊ʼ], shifted: ʏ}
+    - {type: case, normal: [u, ʉ, ʊ, ʊ̈], shifted: [ʊ, ʊ̈]}
+    - {type: case, normal: [i, ɪ, ɪ̈], shifted: [ɪ, ɪ̈]}
+    - {type: case, normal: [o, ɔ, o̞], shifted: [ɔ, ʘ]}
+    - {type: case, normal: [p, "!autoColumnOrder!5", ɸ, pʼ, ɸʼ, pɸ, p̪f], shifted: ʋ}
+  - letters:
+    - {type: case, normal: [a, æ, ä, ɒ, ɑ, ɒ̈], shifted: ɑ}
+    - {type: case, normal: [s, "!autoColumnOrder!6", ʂ, ɕ, ʃ, sʼ, ʂʼ, ɕʼ, ʃʼ, ts, ʈʂ, tʃ, tsʼ, ʈʂʼ, t̠ʃʼ, ʅ, ʆ, "◌ᶴ|\u1DB4"], shifted: [ʃ, ʃʼ, tʃ, t̠ʃʼ, ʅ, ʆ, "◌ᶴ|\u1DB4"]}
+    - {type: case, normal: [d, "!autoColumnOrder!7", ɖ, ɗ, ð, ɗ̥, ᶑ̥, ᶑ, d̪ð, dɮ, dz, dʒ, dʑ, dɹ̝, d̠ɹ̠˔, ɖʐ], shifted: [ð, d̪ð]}
+    - {type: case, normal: [f, fʼ, p̪f], shifted: ɱ}
+    - {type: case, normal: [ɡ, "!autoColumnOrder!5", ɠ, ɣ, ɢ, ʛ, ɠ̊, ʛ̥, ɡɣ, ɡʟ̝, "◌ˠ|\u02E0"], shifted: [ɣ, ɢ, ʛ, ʛ̥, ɡɣ, "◌ˠ|\u02E0"]}
+    - {type: case, normal: [h, "!autoColumnOrder!7", ɦ, ɧ, ɥ, ħ, ʜ, ʔh, "◌ʰ|\u02B0"], shifted: [ɥ, ʜ]}
+    - {type: case, normal: [j, "!autoColumnOrder!6", ʝ, ɟ, ʄ, ʄ̊, ɟʝ, "◌ʲ|\u02B2"], shifted: [ɲ, ɟ, ʄ, ȵ]}
+    - {type: case, normal: [k, "!autoColumnOrder!7", ɧ, ʞ, kʼ, kx, kʟ̝̊, kʟ̝̊ʼ, "◌ˣ|\u02E3"], shifted: [ɬ, "!autoColumnOrder!5", ɮ, ɬʼ, tɬ, dɮ, tɬʼ]}
+    - {type: case, normal: [l, "!autoColumnOrder!5", ɭ, ɺ, ɬ, ɮ, ʟ, ȴ, ɬʼ, tɬ, dɮ, ʈɭ̊˔, kʟ̝̊, ɡʟ̝, tɬʼ, kʟ̝̊ʼ, "◌ˡ|\u02E1"], shifted: [ʎ, ʟ, cʎ̝̊, kʟ̝̊, ɡʟ̝]}
+  - letters:
+    - $shift
+    - {type: case, normal: [z, "!autoColumnOrder!5", ʐ, ʑ, ʒ, ʓ, dz, ɖʐ, dʑ, dʒ, dʓ], shifted: [ʒ, dʒ, ʓ, dʓ]}
+    - {type: case, normal: [x, ɧ, χ, xʼ, χʼ], shifted: [χ, ħ, χʼ]}
+    - {type: case, normal: [c, "!autoColumnOrder!4", ɕ, ç, cʼ, ɕʼ, c, ç, cʎ̝̊, tɕ, cʎ̝̊ʼ], shifted: [ç, ɕ, tɕ, cç]}
+    - {type: case, normal: [v, ʋ, ʌ, ⱱ, b̪v], shifted: ʌ}
+    - {type: case, normal: [b, "!autoColumnOrder!6", ɓ, β, ʙ, ɓ̥, bβ, b̪v], shifted: [β, ʙ, bβ]}
+    - {type: case, normal: [n, "!autoColumnOrder!6", ɳ, ɲ, ŋ, ɴ, ȵ, "◌ⁿ|\u207F"], shifted: [ŋ, ɴ]}
+    - {type: case, normal: [m, "!autoColumnOrder!4", ɱ, ɯ, ɰ, ɯ̽], shifted: [ɯ, ɰ, ɯ̽]}
+    - $delete
+  - bottom:
+    - $symbols
+    - type: contextual
+      fallbackKey: ˈ
+    - $action
+    - $space
+    - ["◌ʰ|\u02B0", "◌̰|\u0330", "◌͡◌|\u0361", "◌̥|\u0325", "◌͜◌|\u035C", "◌̪|\u032A", "◌ʲ|\u02B2", "◌ˁ|\u02C1", "◌̃|\u0303", "◌˞|\u02DE", "◌̤|\u0324", "◌̬|\u032C", "◌̊|\u030A", "◌͆|\u0346", "◌ˠ|\u02E0"]
+    - [".", "/", "ˌ", "]", "[", "}", "{", "ː", "ˈ", "ˑ", "̆", "⸩", "⸨", "|", "‖", "⟩", "⟨", ")", "("]
+    - $enter

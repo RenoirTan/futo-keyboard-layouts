@@ -857,3 +857,4 @@ languages:
     - flick_latin
   ipa:
     - ipa
+    - ipa_qwerty_google
