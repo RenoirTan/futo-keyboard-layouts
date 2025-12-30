@@ -858,3 +858,4 @@ languages:
   ipa:
     - ipa
     - ipa_qwerty_google
+    - ipa_qwerty_google_alt
