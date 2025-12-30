@@ -14,7 +14,7 @@ rows:
     - ["˥˩", "◌̂|\u0302", "◌ꜜ|ꜜ", "↘"]
     - ["˦˥", "◌᷄|\u1DC4"]
     - ["˩˨", "◌᷅|\u1DC5"]
-    - ["˧˦˧", "◌᷈|\u1DC8"]
+    - ["˧˦˧", "◌᷈|\u1DC8", "→"]
   - letters:
     - ["⸨", "⟨", "‹"]
     - ["⸩", "⟩", "›"]
@@ -36,4 +36,10 @@ rows:
     - "\u007C" # VERTICLE LINE
     - "‖"
     - $delete
-  - bottom: "$alphabet , $number $space . $enter"
+  - bottom:
+    - $alphabet
+    - ","
+    - $number
+    - $space
+    - [".", "…"]
+    - $enter

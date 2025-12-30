@@ -20,7 +20,7 @@ attributes:
 rows:
   - letters: # X-SAMPA number row
     - {type: case, normal: ɨ, shifted: [ɸ, ɸʼ, pɸ]}
-    - {type: case, normal: [ø, ø̞], shifted: [ɘ, ɚ, "◌ᵊ|\u1D4A"]}
+    - {type: case, normal: [ø, ø̞], shifted: [ə, ɘ, ɚ, "◌ᵊ|\u1D4A"]}
     - {type: case, normal: [ɜ, ɞ, ɛ, ɝ], shifted: [ʘ, ʘ̬, ʘ̃]}
     - {type: case, normal: [ɾ, ɿ], shifted: [ǀ, "!fixedColumnOrder!5", ǁ̃, ǀ̃, ǁ, ǀ̬, ǁ̬]}
     - {type: case, normal: ɫ, shifted: ǃ}
@@ -31,7 +31,7 @@ rows:
     - {type: case, normal: [ʔ, "!fixedColumnOrder!6", "◌ˁ|\u02C1", "◌ˀ|\u02C0", ʡʼ, ʕ, ʢ, ʡ], shifted: [ʕ, "!fixedColumnOrder!3", "◌ˁ|\u02C1", ʡ, ʢ]}
   - letters:
     - {type: case, normal: [q, qʼ, ʠ], shifted: [ɒ, ɒ̈]}
-    - {type: case, normal: [w, ʍ, ʷ], shifted: ʍ}
+    - {type: case, normal: [w, ʍ, "◌ʷ|\u02B7"], shifted: ʍ}
     - {type: case, normal: [e, "!fixedColumnOrder!6", ɛ, ə, ɘ, e̞, ɚ, "◌ᵊ|\u1D4A"], shifted: ɛ}
     - {type: case, normal: [r, "!fixedColumnOrder!7", ʁ, ɻ, ɽ, ɹ, ɺ, ʀ, ɾ, d̠ɹ̠˔, dɹ̝, ɿ, tɹ̝̊, t̠ɹ̠̊˔, "◌˞|\u02DE", " "], shifted: [ʁ, ʀ]}
     - {type: case, normal: [t, "!fixedColumnOrder!7", tʃ, θʼ, tʼ, ʈ, θ, ʈʼ, ts, t̠ɹ̠̊˔, ʈɭ̊˔, tɬ, tɕ, t̪θ, ʈʂ, tɹ̝̊, "◌ᶿ|\u1DBF", tɬʼ, tsʼ, t̠ʃʼ, ʈʂʼ], shifted: [θ, "!fixedColumnOrder!3", "◌ᶿ|\u1DBF", θʼ, t̪θ]}
@@ -45,7 +45,7 @@ rows:
     - {type: case, normal: [s, "!fixedColumnOrder!6", ʃ, ʂ, ɕ, sʼ, ʂʼ, ɕʼ, ʈʂ, ʃʼ, ts, tʃ, tsʼ, ʈʂʼ, ʆ, t̠ʃʼ, ʅ, "◌ᶴ|\u1DB4"], shifted: [ʃ, "!fixedColumnOrder!6", t̠ʃʼ, ʃʼ, tʃ, ʅ, ʆ, "◌ᶴ|\u1DB4"]}
     - {type: case, normal: [d, "!fixedColumnOrder!7", ᶑ̥, ð, ɖ, ɗ, ɗ̥, ᶑ, d̪ð, dɹ̝, dʒ, dɮ, dz, dʑ, d̠ɹ̠˔, ɖʐ], shifted: [ð, d̪ð]}
     - {type: case, normal: [f, fʼ, p̪f], shifted: ɱ}
-    - {type: case, normal: [ɡ, "!fixedColumnOrder!5", ɠ̊, ɢ, ɠ, ɣ, ʛ, ɡʟ̝, ʛ̥, ɡɣ, "◌ˠ|\u02E0"], shifted: [ɣ, "!fixedColumnOrder!5", "◌ˠ|\u02E0", ʛ̥, ɢ, ʛ, ɡɣ]}
+    - {type: case, normal: [ɡ, "!fixedColumnOrder!5", ɠ̊, ɢ, ɠ, ɣ, ʛ, " ", ɡʟ̝, ʛ̥, ɡɣ, "◌ˠ|\u02E0"], shifted: [ɣ, "!fixedColumnOrder!5", "◌ˠ|\u02E0", ʛ̥, ɢ, ʛ, ɡɣ]}
     - {type: case, normal: [h, "!fixedColumnOrder!7", "◌ʰ|\u02B0", ʔh, ʜ, ɥ, ɦ, ɧ, ħ], shifted: [ɥ, ʜ]}
     - {type: case, normal: [j, "!fixedColumnOrder!6", "◌ʲ|\u02B2", ɟʝ, ʄ, ʝ, ɟ, ʄ̊], shifted: [ɲ, "!fixedColumnOrder!3", ȵ, ɟ, ʄ]}
     - {type: case, normal: [k, "!fixedColumnOrder!7", "◌ˣ|\u02E3", kʟ̝̊ʼ, kʟ̝̊, kx, kʼ, ɧ, ʞ], shifted: [ɬ, "!fixedColumnOrder!5", tɬʼ, dɮ, tɬ, ɮ, ɬʼ]}
