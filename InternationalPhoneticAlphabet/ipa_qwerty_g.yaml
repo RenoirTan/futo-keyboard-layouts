@@ -35,7 +35,7 @@ rows:
     - {type: case, normal: [s, "!fixedColumnOrder!6", ʃ, ʂ, ɕ, sʼ, ʂʼ, ɕʼ, ʈʂ, ʃʼ, ts, tʃ, tsʼ, ʈʂʼ, ʆ, t̠ʃʼ, ʅ, "◌ᶴ|\u1DB4"], shifted: [ʃ, "!fixedColumnOrder!6", t̠ʃʼ, ʃʼ, tʃ, ʅ, ʆ, "◌ᶴ|\u1DB4"]}
     - {type: case, normal: [d, "!fixedColumnOrder!7", ᶑ̥, ð, ɖ, ɗ, ɗ̥, ᶑ, d̪ð, dɹ̝, dʒ, dɮ, dz, dʑ, d̠ɹ̠˔, ɖʐ], shifted: [ð, d̪ð]}
     - {type: case, normal: [f, fʼ, p̪f], shifted: ɱ}
-    - {type: case, normal: [g, "!fixedColumnOrder!6", "◌ᵍ|\u1D4D", ɠ̊, ɢ, ɠ, ɣ, ʛ, " ", "◌𐞒|\U00010792", gʟ̝, ʛ̥, gɣ, "◌ˠ|\u02E0"], shifted: [ɣ, "!fixedColumnOrder!5", "◌ˠ|\u02E0", ʛ̥, ɢ, ʛ, gɣ]}
+    - {type: case, normal: [g, "!fixedColumnOrder!6", "◌ᵍ|\u1D4D", ɠ̊, ɢ, ɠ, ɣ, ʛ, "◌𐞒|\U00010792", gʟ̝, ʛ̥, gɣ, "◌ˠ|\u02E0"], shifted: [ɣ, "!fixedColumnOrder!5", "◌ˠ|\u02E0", ʛ̥, ɢ, ʛ, gɣ]}
     - {type: case, normal: [h, "!fixedColumnOrder!8", "◌ʱ|\u02B1", "◌ʰ|\u02B0", ʔh, ʜ, ɥ, ɦ, ɧ, ħ], shifted: [ɥ, ʜ]}
     - {type: case, normal: [j, "!fixedColumnOrder!6", "◌ʲ|\u02B2", ɟʝ, ʄ, ʝ, ɟ, ʄ̊], shifted: [ɲ, "!fixedColumnOrder!3", ȵ, ɟ, ʄ]}
     - {type: case, normal: [k, "!fixedColumnOrder!8", "◌ˣ|\u02E3", kʟ̝̊ʼ, kʟ̝̊, kx, kʼ, ɧ, ʞ, "◌ᵏ|\u1D4F"], shifted: [ɬ, "!fixedColumnOrder!7", 𝼅, ꞎ, tɬʼ, dɮ, tɬ, ɮ, ɬʼ]}
@@ -48,7 +48,7 @@ rows:
     - {type: case, normal: [v, "!fixedColumnOrder!4", ⱱ, ʋ, ʌ, b̪v], shifted: ʌ}
     - {type: case, normal: [b, "!fixedColumnOrder!6", b̪v, bβ, ʙ, ɓ, β, ɓ̥], shifted: [β, ʙ, bβ]}
     - {type: case, normal: [n, "!fixedColumnOrder!6", "◌ⁿ|\u207F", ȵ, ŋ, ɳ, ɲ, ɴ, "◌ᵐ|\u1D50", "◌ᶬ|\u1DAC", "◌ᶯ|\u1DAF", "◌ᶮ|\u1DAE", "◌ᵑ|\u1D51", "◌ᶰ|\u1DB0"], shifted: [ŋ, ɴ]}
-    - {type: case, normal: [m, "!fixedColumnOrder!4", ɯ̽, ɰ, ɱ, ɯ, " ", " ", "◌ᵐ|\u1D50", "◌ᶬ|\u1DAC"], shifted: [ɯ, ɰ, ɯ̽]}
+    - {type: case, normal: [m, "!fixedColumnOrder!4", ɯ̽, ɰ, ɱ, ɯ, "◌ᵐ|\u1D50", "◌ᶬ|\u1DAC"], shifted: [ɯ, ɰ, ɯ̽]}
     - $delete
   - bottom:
     - {

@@ -23,7 +23,7 @@ rows:
       shifted: [ǀ, "!fixedColumnOrder!5", ǁ̃, ǀ̃, ǁ, ǀ̬, ǁ̬, "◌𐞶|\U000107B6", ʇ, "◌𐞷|\U000107B7"]
     - type: case
       normal: [ɫ, "◌ꭞ|\uAB5E"]
-      shifted: [ǃ, "!fixedColumnOrder!3", 𝼊, ‼, ψ, " ", "◌𐞹|\U000107B9", "◌ꜝ|\uA71D"]
+      shifted: [ǃ, "!fixedColumnOrder!3", 𝼊, ‼, ψ, "◌𐞹|\U000107B9", "◌ꜝ|\uA71D"]
     - type: case
       normal: [ɐ, "◌ᵄ|\u1D44"]
       shifted: [ǂ, "!fixedColumnOrder!3", ǂ̬, ǂ̃, "◌𐞸|\U000107B8"]
