@@ -12,6 +12,7 @@
 # 9. Added ⟨ɐ⟩ to the more keys list for "A".
 # 10. Added ⟨ʱ⟩ to "H".
 # 11. Added ⟨ˣ⟩ to "X" since it is already in "K".
+# 12. Replace duplicate ⟨◌̃⟩ in altPages[1] with dotted circle ⟨◌⟩.
 
 name: International Phonetic Alphabet QWERTY
 numberRowMode: AlwaysDisabled # first row is the number row
@@ -195,7 +196,7 @@ altPages:
       -
         - "◌̈|\u0308" # COMBINING DIAERESIS
         - "◌̽|\u033D" # COMBINING X ABOVE
-      - "◌̃|\u0303" # COMBINING TILDE
+      - "◌|\u25CC" # DOTTED CIRCLE
       -
         - "◌̪|\u032A" # COMBINING BRIDGE BELOW
         - "◌͆|\u0346" # COMBINING BRIDGE ABOVE

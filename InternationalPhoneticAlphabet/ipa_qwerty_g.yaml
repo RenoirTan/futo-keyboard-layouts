@@ -183,7 +183,7 @@ altPages:
       -
         - "◌̈|\u0308" # COMBINING DIAERESIS
         - "◌̽|\u033D" # COMBINING X ABOVE
-      - "◌̃|\u0303" # COMBINING TILDE
+      - "◌|\u25CC" # DOTTED CIRCLE
       -
         - "◌̪|\u032A" # COMBINING BRIDGE BELOW
         - "◌͆|\u0346" # COMBINING BRIDGE ABOVE
