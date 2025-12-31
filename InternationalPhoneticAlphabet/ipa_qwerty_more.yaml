@@ -34,7 +34,7 @@ rows:
       normal: [ɵ, "!fixedColumnOrder!3", "◌ᶱ|\u1DB1"]
       shifted: [æ, "◌𐞃|\U00010783"]
     - type: case
-      normal: [œ, "◌ꟹ|\uA7F9", "◌𐞣|\U000107A3", ɶ]
+      normal: [œ, "!fixedColumnOrder!3", "◌𐞣|\U000107A3", "◌ꟹ|\uA7F9", ɶ]
       shifted: [ʉ, "◌ᶶ|\u1DB6"]
     - type: case
       normal: [ʔ, "!fixedColumnOrder!8", "◌𐞳|\U000107B3", "◌𐞴|\U000107B4", "◌ˤ|\u02E4", "◌ˀ|\u02C0", ʡʼ, ʕ, ʢ, ʡ]
