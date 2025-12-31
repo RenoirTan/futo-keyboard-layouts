@@ -860,3 +860,5 @@ languages:
     - ipa_qwerty
     - ipa_qwerty_more
     - ipa_qwerty_google
+    - ipa_qwerty_g
+    - ipa_qwerty_more_g

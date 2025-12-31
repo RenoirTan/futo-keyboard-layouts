@@ -1,0 +1,228 @@
+# This layout changes the script ⟨g⟩ (U+0261) and ⟨ᶢ⟩ (U+1DA2) used by the IPA
+# to the ASCII ⟨g⟩ (U+0067) and its corresponding superscript ⟨ᵍ⟩ (U+1D4D).
+
+name: International Phonetic Alphabet QWERTY ASCII G
+numberRowMode: AlwaysDisabled # first row is the number row
+autoShift: false # IPA is not bicameral
+attributes:
+  shiftable: false # prevent letters from being capitalised when pressing shift
+  moreKeyMode: OnlyExplicit # prevent additional symbols from being added to long press list
+rows:
+  - letters: # X-SAMPA number row
+    - {type: case, normal: ɨ, shifted: [ɸ, ɸʼ, pɸ]}
+    - {type: case, normal: [ø, ø̞], shifted: [ə, ɘ, ɚ, "◌ᵊ|\u1D4A"]}
+    - {type: case, normal: [ɜ, ɞ, ɛ, ɝ], shifted: [ʘ, ʘ̬, ʘ̃]}
+    - {type: case, normal: [ɾ, "!fixedColumnOrder!4", ɿ, ʅ, ʮ, ʯ], shifted: [ǀ, "!fixedColumnOrder!5", ǁ̃, ǀ̃, ǁ, ǀ̬, ǁ̬]}
+    - {type: case, normal: ɫ, shifted: [ǃ, "!fixedColumnOrder!3", 𝼊, ‼, ψ]}
+    - {type: case, normal: ɐ, shifted: [ǂ, ǂ̬, ǂ̃]}
+    - {type: case, normal: [ɤ, ɤ̞], shifted: ɶ}
+    - {type: case, normal: ɵ, shifted: æ}
+    - {type: case, normal: [œ, ɶ], shifted: ʉ}
+    - {type: case, normal: [ʔ, "!fixedColumnOrder!6", "◌ˤ|\u02E4", "◌ˀ|\u02C0", ʡʼ, ʕ, ʢ, ʡ], shifted: [ʕ, "!fixedColumnOrder!3", "◌ˤ|\u02E4", ʡ, ʢ]}
+  - letters:
+    - {type: case, normal: [q, "!fixedColumnOrder!3", qʼ, ʠ, "◌𐞥|\U000107A5"], shifted: [ɒ, ɒ̈]}
+    - {type: case, normal: [w, ʍ, "◌ʷ|\u02B7"], shifted: ʍ}
+    - {type: case, normal: [e, "!fixedColumnOrder!6", ɛ, ə, ɘ, e̞, ɚ, "◌ᵊ|\u1D4A"], shifted: ɛ}
+    - {type: case, normal: [r, "!fixedColumnOrder!7", ʁ, ɻ, ɽ, ɹ, ɺ, ʀ, ɾ, d̠ɹ̠˔, dɹ̝, ɿ, tɹ̝̊, t̠ɹ̠̊˔, "◌˞|\u02DE", "𝼈"], shifted: [ʁ, ʀ]}
+    - {type: case, normal: [t, "!fixedColumnOrder!7", tʃ, θʼ, tʼ, ʈ, θ, ʈʼ, ts, t̠ɹ̠̊˔, ʈɭ̊˔, tɬ, tɕ, t̪θ, ʈʂ, tɹ̝̊, "◌ᶿ|\u1DBF", tɬʼ, tsʼ, t̠ʃʼ, ʈʂʼ], shifted: [θ, "!fixedColumnOrder!3", "◌ᶿ|\u1DBF", θʼ, t̪θ]}
+    - {type: case, normal: [y, "!fixedColumnOrder!4", cʎ̝̊, ʎ, ʏ, cʎ̝̊ʼ], shifted: ʏ}
+    - {type: case, normal: [u, "!fixedColumnOrder!3", ʊ̈, ʉ, ʊ], shifted: [ʊ, ʊ̈]}
+    - {type: case, normal: [i, ɪ, ɪ̈], shifted: [ɪ, ɪ̈]}
+    - {type: case, normal: [o, ɔ, o̞], shifted: [ɔ, ʘ]}
+    - {type: case, normal: [p, "!fixedColumnOrder!5", p̪f, pɸ, ɸʼ, pʼ, ɸ], shifted: ʋ}
+  - letters:
+    - {type: case, normal: [a, "!fixedColumnOrder!6", æ, ä, ɒ, ɑ, ɒ̈, ɐ], shifted: ɑ}
+    - {type: case, normal: [s, "!fixedColumnOrder!6", ʃ, ʂ, ɕ, sʼ, ʂʼ, ɕʼ, ʈʂ, ʃʼ, ts, tʃ, tsʼ, ʈʂʼ, ʆ, t̠ʃʼ, ʅ, "◌ᶴ|\u1DB4"], shifted: [ʃ, "!fixedColumnOrder!6", t̠ʃʼ, ʃʼ, tʃ, ʅ, ʆ, "◌ᶴ|\u1DB4"]}
+    - {type: case, normal: [d, "!fixedColumnOrder!7", ᶑ̥, ð, ɖ, ɗ, ɗ̥, ᶑ, d̪ð, dɹ̝, dʒ, dɮ, dz, dʑ, d̠ɹ̠˔, ɖʐ], shifted: [ð, d̪ð]}
+    - {type: case, normal: [f, fʼ, p̪f], shifted: ɱ}
+    - {type: case, normal: [g, "!fixedColumnOrder!6", "◌ᵍ|\u1D4D", ɠ̊, ɢ, ɠ, ɣ, ʛ, " ", "◌𐞒|\U00010792", gʟ̝, ʛ̥, gɣ, "◌ˠ|\u02E0"], shifted: [ɣ, "!fixedColumnOrder!5", "◌ˠ|\u02E0", ʛ̥, ɢ, ʛ, gɣ]}
+    - {type: case, normal: [h, "!fixedColumnOrder!8", "◌ʱ|\u02B1", "◌ʰ|\u02B0", ʔh, ʜ, ɥ, ɦ, ɧ, ħ], shifted: [ɥ, ʜ]}
+    - {type: case, normal: [j, "!fixedColumnOrder!6", "◌ʲ|\u02B2", ɟʝ, ʄ, ʝ, ɟ, ʄ̊], shifted: [ɲ, "!fixedColumnOrder!3", ȵ, ɟ, ʄ]}
+    - {type: case, normal: [k, "!fixedColumnOrder!8", "◌ˣ|\u02E3", kʟ̝̊ʼ, kʟ̝̊, kx, kʼ, ɧ, ʞ, "◌ᵏ|\u1D4F"], shifted: [ɬ, "!fixedColumnOrder!7", 𝼅, ꞎ, tɬʼ, dɮ, tɬ, ɮ, ɬʼ]}
+    - {type: case, normal: [l, "!fixedColumnOrder!5", ʟ, ɮ, ɬ, ɺ, ɭ, ʈɭ̊˔, dɮ, tɬ, ɬʼ, ȴ, "◌ˡ|\u02E1", kʟ̝̊ʼ, tɬʼ, gʟ̝, kʟ̝̊, ꞎ, 𝼅, 𝼆, 𝼄], shifted: [ʎ, "!fixedColumnOrder!4", gʟ̝, kʟ̝̊, cʎ̝̊, ʟ]}
+  - letters:
+    - $shift
+    - {type: case, normal: [z, "!fixedColumnOrder!5", ʒ, ʐ, ʑ, ʓ, dz, dʒ, ɖʐ, dʑ, dʓ], shifted: [ʒ, "!fixedColumnOrder!3", dʓ, dʒ, ʓ]}
+    - {type: case, normal: [x, "!fixedColumnOrder!5", xʼ, ɧ, χ, χʼ, "◌ˣ|\u02E3"], shifted: [χ, ħ, χʼ]}
+    - {type: case, normal: [c, "!fixedColumnOrder!4", cʼ, ɕ, ç, ɕʼ, tɕ, cç, cʎ̝̊, cʎ̝̊ʼ], shifted: [ç, "!fixedColumnOrder!3", cç, ɕ, tɕ]}
+    - {type: case, normal: [v, "!fixedColumnOrder!4", ⱱ, ʋ, ʌ, b̪v], shifted: ʌ}
+    - {type: case, normal: [b, "!fixedColumnOrder!6", b̪v, bβ, ʙ, ɓ, β, ɓ̥], shifted: [β, ʙ, bβ]}
+    - {type: case, normal: [n, "!fixedColumnOrder!6", "◌ⁿ|\u207F", ȵ, ŋ, ɳ, ɲ, ɴ, "◌ᵐ|\u1D50", "◌ᶬ|\u1DAC", "◌ᶯ|\u1DAF", "◌ᶮ|\u1DAE", "◌ᵑ|\u1D51", "◌ᶰ|\u1DB0"], shifted: [ŋ, ɴ]}
+    - {type: case, normal: [m, "!fixedColumnOrder!4", ɯ̽, ɰ, ɱ, ɯ, " ", " ", "◌ᵐ|\u1D50", "◌ᶬ|\u1DAC"], shifted: [ɯ, ɰ, ɯ̽]}
+    - $delete
+  - bottom:
+    - {
+        type: base,
+        spec: "/[{|!code/key_to_alt_0_layout",
+        attributes:
+          &functional {
+            width: FunctionalKey,
+            style: Functional,
+            anchored: true,
+            showPopup: false,
+            labelFlags: { followKeyLetterRatio: false }
+          },
+      }
+    - type: contextual
+      fallbackKey: ˈ
+    - $action
+    - $space
+    - [
+        "◌ʰ|\u02B0",
+        "!fixedColumnOrder!7",
+        "◌ˤ|\u02E4",
+        "◌ʲ|\u02B2",
+        "◌̪|\u032A",
+        "◌̥|\u0325",
+        "◌̰|\u0330",
+        "◌͡◌|\u0361",
+        "◌͜◌|\u035C",
+        "◌ˠ|\u02E0",
+        "◌͆|\u0346",
+        "◌̊|\u030A",
+        "◌̤|\u0324",
+        "◌̃|\u0303",
+        "◌˞|\u02DE",
+        "◌̬|\u032C",
+      ]
+    - [".", "!fixedColumnOrder!6", "{", "}", "[", "]", "/", "ˌ", "⸨", "⸩", "◌̆|\u0306", "ˑ", "ː", "ˈ", "(", ")", "⟨", "⟩", "|", "‖"]
+    - $enter
+altPages:
+  -
+    - letters:
+      - ["˥", "◌̋|\u030B"]
+      - ["˦", "◌́|\u0301"]
+      - ["˧", "◌̄|\u0304"]
+      - ["˨", "◌̀|\u0300"]
+      - ["˩", "◌̏|\u030F"]
+      - ["˩˥", "◌̌|\u030C", "◌ꜛ|ꜛ", "↗︎"]
+      - ["˥˩", "◌̂|\u0302", "◌ꜜ|ꜜ", "↘"]
+      - ["˦˥", "◌᷄|\u1DC4", "◌᷆|\u1DC6"]
+      - ["˩˨", "◌᷅|\u1DC5", "◌᷇|\u1DC7"]
+      - ["˧˦˧", "◌᷈|\u1DC8", "◌᷉|\u1DC9", "→"]
+    - letters:
+      - ["⸨", "⟨", "‹"]
+      - ["⸩", "⟩", "›"]
+      - ["(", "<", "{", "["]
+      - [")", ">", "}", "]"]
+      - "["
+      - "]"
+      - "/"
+      - ["{", "("]
+      - ["}", ")"]
+      - "‿"
+    - letters:
+      - {
+          type: base,
+          spec: "◌̥◌ʰ|!code/key_to_alt_1_layout",
+          attributes: *functional,
+        }
+      - "ˈ|\u02C8" # MODIFIER LETTER VERTICLE LINE
+      - "ˌ|\u02CC" # MODIFIER LETTER LOW VERTICAL LINE
+      - "ː|\u02D0" # MODIFIER LETTER TRIANGULAR COLON
+      - "ˑ|\u02D1" # MODIFIER LETTER HALF TRIANGULAR COLON
+      - "◌̆|\u0306" # COMBINING BREVE
+      - "\u007C" # VERTICLE LINE
+      - "‖"
+      - $delete
+    - bottom:
+      - {
+          type: base,
+          spec: "ɑβɕ|!code/key_to_alt_0_layout",
+          attributes: *functional,
+        }
+      - ","
+      - $number
+      - $space
+      - [".", "…"]
+      - $enter
+  -
+    - letters:
+      -
+        - "◌̝|\u031D" # COMBINING UP TACK BELOW
+        - "◌˔|\u02D4" # MODIFIER LETTER UP TACK
+        - "◌̞|\u031E" # COMBINING DOWN TACK BELOW
+        - "◌˕|\u02D5" # MODIFIER LETTER DOWN TACK
+      -
+        - "◌̹|\u0339" # COMBINING RIGHT HALF RING BELOW
+        - "◌͗|\u0357" # COMBINING RIGHT HALF RING ABOVE
+        - "◌˒|\u02D2" # MODIFIER LETTER CENTRED RIGHT HALF RING
+        - "◌̜|\u031C" # COMBINING LEFT HALF RING BELOW
+        - "◌͑|\u0351" # COMBINING LEFT HALF RING ABOVE
+        - "◌˓|\u02D3" # MODIFIER LETTER CENTRED LEFT HALF RING
+      -
+        - "◌̟|\u031F" # COMBINING PLUS SIGN BELOW
+        - "◌˖|\u02D6" # MODIFIER LETTER PLUS SIGN
+        - "◌̠|\u0320" # COMBINING MINUS SIGN BELOW
+        - "◌˗|\u02D7" # MODIFIER LETTER MINUS SIGN
+      -
+        - "◌ⁿ|\u207F" # SUPERSCRIPT LATIN SMALL LETTER N
+        - "!fixedColumnOrder!6"
+        - "◌ᵐ|\u1D50" # MODIFIER LETTER SMALL M
+        - "◌ᶬ|\u1DAC" # MODIFIER LETTER SMALL M WITH HOOK
+        - "◌ᶯ|\u1DAF" # MODIFIER LETTER SMALL N WITH RETROFLEX HOOK
+        - "◌ᶮ|\u1DAE" # MODIFIER LETTER SMALL N WITH LEFT HOOK
+        - "◌ᵑ|\u1D51" # MODIFIER LETTER SMALL ENG
+        - "◌ᶰ|\u1DB0" # MODIFIER LETTER SMALL CAPITAL N
+      - "◌ˡ|\u02E1" # MODIFIER LETTER SMALL L
+      - "◌̚|\u031A" # COMBINING LEFT ANGLE ABOVE
+      - "◌ᵊ|\u1D4A" # MODIFIER LETTER SMALL SCHWA
+      - "◌ᶿ|\u1DBF" # MODIFIER LETTER SMALL THETA
+      - "◌ˣ|\u02E3" # MODIFIER LETTER SMALL X
+      - "◌ʼ|\u02BC" # MODIFIER LETTER APOSTROPHE
+    - letters:
+      -
+        - "◌̩|\u0329" # COMBINING VERTICAL LINE BELOW
+        - "◌̍|\u030D" # COMBINING VERTICLE LINE ABOVE
+      -
+        - "◌̯|\u032F" # COMBINING INVERTED BREVE BELOW
+        - "◌̑|\u0311" # COMBINING INVERTED BREVE
+      -
+        - "◌̘|\u0318" # COMBINING LEFT TACK BELOW
+        - "◌̙|\u0319" # COMBINING RIGHT TACK BELOW
+      -
+        - "◌̈|\u0308" # COMBINING DIAERESIS
+        - "◌̽|\u033D" # COMBINING X ABOVE
+      - "◌̃|\u0303" # COMBINING TILDE
+      -
+        - "◌̪|\u032A" # COMBINING BRIDGE BELOW
+        - "◌͆|\u0346" # COMBINING BRIDGE ABOVE
+        - "◌̺|\u033A" # COMBINING INVERTED BRIDGE BELOW
+        - "◌̻|\u033B" # COMBINING SQUARE BELOW
+      -
+        - "◌ʷ|\u02B7" # MODIFIER LETTER SMALL W
+        - "◌̼|\u033C" # COMBINING SEAGULL BELOW
+      - "◌ʲ|\u02B2" # MODIFIER LETTER SMALL J
+      -
+        - "◌ˠ|\u02E0" # MODIFIER LETTER SMALL GAMMA
+        - "◌̴|\u0334" # COMBINING TILDE OVERLAY
+      -
+        - "◌ˤ|\u02E4" # MODIFIER LETTER SMALL REVERSED GLOTTAL STOP
+        - "◌̴|\u0334" # COMBINING TILDE OVERLAY
+    - letters:
+      - {
+          type: base,
+          spec: "/[{|!code/key_to_alt_0_layout",
+          attributes: *functional,
+        }
+      -
+        - "◌̥|\u0325" # COMBINING RING BELOW
+        - "◌̊|\u030A" # COMBINING RING ABOVE
+      - "◌̬|\u032C" # COMBINING CARON
+      - "◌ʰ|\u02B0" # MODIFIER LETTER SMALL H
+      - "◌̤|\u0324" # COMBINING DIAERESIS BELOW
+      - "◌̰|\u0330" # COMBINING TILDE BELOW
+      - "◌̃|\u0303" # COMBINING TILDE
+      - "◌˞|\u02DE" # MODIFIER LETTER RHOTIC HOOK
+      - $delete
+    - bottom:
+      - {
+          type: base,
+          spec: "ɑβɕ|!code/key_to_alt_1_layout",
+          attributes: *functional,
+        }
+      - "◌͡◌|\u0361" # COMBINING DOUBLE INVERTED BREVE
+      - $number
+      - $space
+      - "◌͜◌|\u035C" # COMBINING DOUBLE BREVE BELOW
+      - $enter
